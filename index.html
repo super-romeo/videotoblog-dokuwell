@@ -16,6 +16,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="For video creators and businesses: paste a video link and get a blog article with headings, key points, screenshots and meta description.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -75,38 +79,68 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <!-- Google Tag Manager (noscript): по заказу «Смоков» (СМ-09) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Video to Article</a></div>
-  <nav class="top"><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Video to Article</a>
+  <nav><a href="#what" data-ev="click_nav_what">What you get</a><a href="price.html" data-ev="click_nav_price">Price</a><a href="#example" data-ev="click_nav_example">Example</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Turn each video into a blog article that search engines can read — in minutes</h1>
-    <p class="sub">For creators, coaches and businesses with video: paste a link or upload a file, and get a structured article in your voice — headings, key points, screenshots from the video, a meta description and image alt texts — ready to edit and publish on your blog.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">I need this</a>
-    <p class="cta-note">Early access · No payment is taken on this page yet</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> For creators, coaches and businesses</p>
+      <h1 class="rise" style="--i:1" data-len="long">Turn each video into a blog article that search engines can read&nbsp;<span class="soft">— in minutes</span></h1>
+      <p class="rise" style="--i:2">For creators, coaches and businesses with video: paste a link or upload a file, and get a structured article in your voice — headings, key points, screenshots from the video, a meta description and image alt texts — ready to edit and publish on your blog.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">I need this</a>
+      <p class="meta rise" style="--i:4">Early access · No payment is taken on this page yet</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="160" font-size="40" font-weight="600" fill="#0a1524">blog article</text><line x1="120" y1="210" x2="1080" y2="210" stroke="#dde2ea" stroke-width="3" /><text x="120" y="280" font-size="32" font-weight="600" fill="#0a1524">headings</text><rect x="120" y="310" width="420" height="20" rx="8" fill="#dde2ea" /><rect x="120" y="350" width="340" height="20" rx="8" fill="#b9c3d2" /><text x="120" y="430" font-size="32" font-weight="600" fill="#0a1524">key points</text><rect x="120" y="460" width="400" height="20" rx="8" fill="#dde2ea" /><rect x="120" y="500" width="280" height="20" rx="8" fill="#dfe8f7" /><rect x="680" y="260" width="380" height="400" rx="20" fill="#dfe8f7" /><text x="710" y="330" font-size="30" font-weight="600" fill="#0a1524">meta description</text><rect x="710" y="380" width="300" height="180" rx="12" fill="#ffffff" /><rect x="740" y="420" width="200" height="16" rx="6" fill="#dde2ea" /><rect x="740" y="456" width="160" height="16" rx="6" fill="#b9c3d2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>For</dt><dd>Creators, coaches and businesses</dd></div>
+      <div><dt>Article</dt><dd>Structured article in your voice</dd></div>
+      <div><dt>Paste</dt><dd>Paste a link or upload</dd></div>
+      <div><dt>Access</dt><dd>Early access</dd></div>
+    </dl>
+  </section>
 
   <section id="what" data-view="features_view">
-    <h2>What you get</h2>
-    <div class="grid">
-      <div class="card"><b>Structured article</b><span>Headings, short paragraphs and key points written from what you said, in your voice.</span><br><a class="btn" href="price.html" data-ev="feature_article">I need this</a></div>
-      <div class="card"><b>Screenshots from the video</b><span>Frames from the video placed at the right sections, with alt texts.</span><br><a class="btn" href="price.html" data-ev="feature_images">I need this</a></div>
-      <div class="card"><b>Search metadata</b><span>Title, meta description and a main phrase chosen for the topic of the video.</span><br><a class="btn" href="price.html" data-ev="feature_seo">I need this</a></div>
-      <div class="card"><b>Export to your blog</b><span>Copy as formatted text or export for your blogging platform.</span><br><a class="btn" href="price.html" data-ev="feature_export">I need this</a></div>
+    <div class="stack"><h2>What you get</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="120" y="70" width="560" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="160" y="140" font-size="30" font-weight="600" fill="#0a1524">Structured article</text><rect x="160" y="180" width="400" height="22" rx="8" fill="#12397a" /><rect x="160" y="230" width="440" height="16" rx="8" fill="#dde2ea" /><rect x="160" y="264" width="380" height="16" rx="8" fill="#b9c3d2" /><rect x="160" y="310" width="300" height="22" rx="8" fill="#dfe8f7" /><rect x="160" y="360" width="420" height="16" rx="8" fill="#dde2ea" /><rect x="160" y="394" width="260" height="16" rx="8" fill="#dde2ea" /></svg></div>
+        <h3>Structured article</h3><p>Headings, short paragraphs and key points written from what you said, in your voice.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_article">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="90" y="80" width="620" height="440" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="150" font-size="34" font-weight="600" fill="#0a1524">Screenshots</text><rect x="130" y="200" width="240" height="150" rx="12" fill="#dfe8f7" /><rect x="400" y="200" width="240" height="150" rx="12" fill="#dde2ea" /><rect x="130" y="370" width="240" height="100" rx="12" fill="#12397a" /><rect x="400" y="370" width="240" height="100" rx="12" fill="#eef2f7" /></svg></div>
+        <h3>Screenshots from the video</h3><p>Frames from the video placed at the right sections, with alt texts.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_images">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="100" y="80" width="600" height="440" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="140" y="150" font-size="32" font-weight="600" fill="#0a1524">Search metadata</text><rect x="140" y="200" width="500" height="64" rx="12" fill="#eef2f7" /><rect x="140" y="290" width="500" height="64" rx="12" fill="#dfe8f7" /><rect x="140" y="380" width="360" height="64" rx="12" fill="#12397a" /></svg></div>
+        <h3>Search metadata</h3><p>Title, meta description and a main phrase chosen for the topic of the video.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_seo">I need this</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="120" width="250" height="340" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="480" y="120" width="250" height="340" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="90" y="180" font-size="32" font-weight="600" fill="#0a1524">Export</text><rect x="96" y="220" width="180" height="16" rx="8" fill="#dde2ea" /><rect x="96" y="260" width="140" height="16" rx="8" fill="#b9c3d2" /><rect x="506" y="220" width="180" height="16" rx="8" fill="#dfe8f7" /><rect x="506" y="260" width="160" height="16" rx="8" fill="#dde2ea" /><rect x="506" y="300" width="120" height="16" rx="8" fill="#12397a" /><polygon points="360,270 430,270 430,250 470,290 430,330 430,310 360,310" fill="#12397a" /></svg></div>
+        <h3>Export to your blog</h3><p>Copy as formatted text or export for your blogging platform.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_export">I need this</a>
+      </article>
     </div>
   </section>
 
-  <section id="example" data-view="example_view">
-    <h2>Example (fictional data)</h2>
-    <p class="fine">A 25-minute video about choosing running shoes. The article: 7 sections with headings, a list of 5 key points, 4 screenshots with alt texts, a meta description of 150 characters. The author edits two paragraphs and publishes it on the blog the same evening.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+  <section id="example" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Example</h2>
+      <p>A 25-minute video about choosing running shoes. The article: 7 sections with headings, a list of 5 key points, 4 screenshots with alt texts, a meta description of 150 characters. The author edits two paragraphs and publishes it on the blog the same evening.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Choose your plan</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="150" x2="960" y2="150" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="600" cy="150" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><circle cx="960" cy="150" r="22" fill="#12397a" /><text x="240" y="230" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">7 sections</text><text x="600" y="230" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">key points</text><text x="960" y="230" font-size="30" font-weight="600" fill="#0a1524" text-anchor="middle">screenshots</text><rect x="150" y="310" width="900" height="390" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="200" y="400" font-size="36" font-weight="600" fill="#0a1524">same evening</text><rect x="200" y="460" width="70" height="70" rx="8" fill="#dfe8f7" /><rect x="290" y="460" width="70" height="70" rx="8" fill="#dde2ea" /><rect x="380" y="460" width="70" height="70" rx="8" fill="#12397a" /><rect x="470" y="460" width="70" height="70" rx="8" fill="#b9c3d2" /><rect x="200" y="560" width="460" height="22" rx="8" fill="#dde2ea" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>How it works</h2>
-    <p>A good video holds a lot of knowledge, but search engines read text. A blog article built from the video lets people find your knowledge through search, read it quickly, and then watch the video for more. Writing that article by hand from a transcript takes hours, and a raw transcript published as is reads badly.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>How it works</h2></div>
+    <div class="stack">
+      <p>A good video holds a lot of knowledge, but search engines read text. A blog article built from the video lets people find your knowledge through search, read it quickly, and then watch the video for more. Writing that article by hand from a transcript takes hours, and a raw transcript published as is reads badly.</p>
     <p>Video to Article turns a video into a proper article. You paste a link or upload a file. The service transcribes the video, finds the structure of what you said and writes an article in your voice: an introduction, sections with headings, short paragraphs, a list of key points and a conclusion.</p>
     <p>The article is not a word-for-word transcript. Repetition and filler are removed, examples are kept, and the order follows the logic of the topic. You can choose the length — a short summary post or a longer guide — and the tone, from conversational to formal.</p>
     <p>Screenshots from the video are picked for the sections they illustrate and placed in the article, each with alternative text. The service suggests a title, a meta description and a main phrase that matches the topic, so the article is ready for search engines without extra work.</p>
@@ -116,31 +150,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>A typical week looks like this. You publish a new video, paste its link, and within minutes the article draft is ready. You read it, adjust a paragraph or two, check the title and the meta description, and publish it on your blog with the video embedded at the top. Readers who find the article through search can read the key points and watch the video for the details.</p>
     <p>Over months, a blog built this way becomes a second entry point to your channel or business: each article brings readers from search who might never have found the video directly.</p>
     <p>You must hold the rights to the videos you convert. We do not publish anything on your behalf and do not use your content to train models for others.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Questions</h2>
-    <h3>Is the article just a transcript?</h3>
-    <p>No. It is a structured article with headings, key points and edited paragraphs written from what you said.</p>
-    <h3>Are images included?</h3>
-    <p>Yes, screenshots from the video placed at the right sections, with alt texts.</p>
-    <h3>Does it help with search?</h3>
-    <p>It suggests a title, meta description and main phrase for the topic and builds a readable structure.</p>
-    <h3>Can I edit before publishing?</h3>
-    <p>Yes, in an editor, before you export or copy the article.</p>
-    <h3>Can I use it already?</h3>
-    <p>Not yet. The service is in preparation, and we are checking whether creators need it.</p>
+    <div class="stack"><h2>Questions</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Is the article just a transcript?</h3><p>No. It is a structured article with headings, key points and edited paragraphs written from what you said.</p></div>
+      <div class="split flip"><h3>Are images included?</h3><p>Yes, screenshots from the video placed at the right sections, with alt texts.</p></div>
+      <div class="split flip"><h3>Does it help with search?</h3><p>It suggests a title, meta description and main phrase for the topic and builds a readable structure.</p></div>
+      <div class="split flip"><h3>Can I edit before publishing?</h3><p>Yes, in an editor, before you export or copy the article.</p></div>
+      <div class="split flip"><h3>Can I use it already?</h3><p>Not yet. The service is in preparation, and we are checking whether creators need it.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Convert your first video</h2>
-    <p><label>Videos you publish per month<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— please choose —</option><option>1–4</option><option>5–15</option><option>16–50</option><option>More than 50</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Convert a video</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Convert your first video</h2>
+    </div>
+    <div class="tile stack">
+      <label>Videos you publish per month<select data-ev-focus="form_start"><option value="">— please choose —</option><option>1–4</option><option>5–15</option><option>16–50</option><option>More than 50</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Convert a video</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Video to Article</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Privacy</a></p>
-  <p class="muted">You must hold the rights to the videos you convert. We do not publish on your behalf or use your content to train models for others.</p>
+  <p>You must hold the rights to the videos you convert. We do not publish on your behalf or use your content to train models for others.</p>
 </div></footer>
 
 </body>
